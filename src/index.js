@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CircularIntegration from './CircularIntegration';
+import Prueba from './Prueba';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <CircularIntegration/>
+    {/* <Prueba/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
